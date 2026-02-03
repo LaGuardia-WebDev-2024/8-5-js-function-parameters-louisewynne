@@ -14,6 +14,9 @@ setup = function(){
   drawExtraDirt(330,50);
 
   drawMole(200,200);
+  drawMole(70,120);
+  drawMole(300,60);
+  drawMole(297,350);
 
  
 }
@@ -28,8 +31,7 @@ var drawExtraDirt = function(dirtX, dirtY){
 
 //🟢drawMole Function - custom function created for this lesson
 var drawMole = function(mouseX, mouseY) {
-    //var moleX = 240;
-    //var moleY = 185;
+    
 
     noStroke();
     fill(125, 93, 43);
